@@ -34,20 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML, is HTML that has meaning it is not just for presentation 	purposes. For instance the <H1>-<H6>.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block; allows you to set the height and width on an element. With 	Display: block the top and bottom margins are respected, but with display: 	Inline; they are not.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Content, Padding, Border, Margin
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows developers to revert code files to a previous state.  Compare code changes over time.  	Discover the last team member to modify a piece of code. Version controll.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
